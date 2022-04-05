@@ -1,0 +1,39 @@
+/* BUNGEE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+body{
+    text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('p4_bg.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.fancy-text {
+    font-family: 'Bungee', cursive;
+}
+
+#timeDisplay{
+    height: 300px;   
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+#sunrise{
+    background-color: orange;  
+    padding: 70px 0px;
+    
+
+}
+
+#sunset{
+    background-color: #307fff;  
+    padding: 70px 0px;
+}
+
